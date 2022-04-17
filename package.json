@@ -25,4 +25,8 @@
     "mongoose": "^6.3.0",
     "nodemon": "^2.0.15"
   }
+  ,
+  "scripts": {
+    "start": "nodemon index.js"
+  }
 }

@@ -2,6 +2,7 @@ require("dotenv").config();
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
 
+const key = process.env.JWT_SECRET_KEY || "full_stack_dev";
 const newToken = (user) => {
   return jwt.sign({ user }, process.env.JWT_SECRET_KEY);
 };
