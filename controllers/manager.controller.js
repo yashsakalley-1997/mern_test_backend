@@ -3,6 +3,7 @@ const Manager = require("../models/manager.model");
 const router = express.Router();
 
 router.post("", async (req,res)=>{
+    console.log(req.body)
     try{
         const manager = await Manager.create(req.body);
         return res.status(201).send(manager);
