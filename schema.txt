@@ -1,0 +1,21 @@
+Flat
+1. Type (Owner/Tenant)
+2. Block (A,B,C).
+3. Flat Number (101,102)
+
+Resident.
+1. Name.
+2. Gender.
+3. Age.
+4. Flat.
+
+Resident Manager.
+1. manager_name.
+2. Block manager manages.
+
+Block.
+1. Block Name.
+
+
+
+
